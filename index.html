@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Space Catcher — Game nhỏ</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Space Catcher</h1>
+    <p class="hint">Dùng phím ← → để di chuyển. Hứng các hành tinh rơi để được điểm. Bỏ lỡ 3 lần là thua.</p>
+
+    <div class="hud">
+      <span id="score">Score: 0</span>
+      <span id="lives">Lives: 3</span>
+    </div>
+
+    <canvas id="game" width="480" height="640"></canvas>
+
+    <div class="controls">
+      <button id="restart">Restart</button>
+    </div>
+
+    <footer>
+      <small>Đơn giản để thử GitHub Pages — mở file index.html hoặc bật Pages để chơi online.</small>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
